@@ -1,0 +1,31 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.board-col {
+    flex: 1;
+    background-color: #fff;
+    margin-inline: 8px;
+}
+
+.row-header {
+    position: relative;
+}
+
+.add-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}

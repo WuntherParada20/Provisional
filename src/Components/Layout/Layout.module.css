@@ -1,0 +1,9 @@
+.main-container {
+    position: relative;
+    height: 100vh;
+}
+
+.main {
+    height: calc(100% - 58px);
+    width: 100%;
+}
